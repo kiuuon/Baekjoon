@@ -11,8 +11,6 @@ int main() {
         cin >> arr[i];
     }
 
-    int i1 = 1, j1, k1;
-
     for (int i = 0; i < N - 3; i++) {
         for (int j = i + 1; j < N - 2; j++) {
             for (int k = j + 1; k < N - 1; k++) {
